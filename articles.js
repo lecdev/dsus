@@ -125,7 +125,7 @@ this.article01 = [
     'When you run any of your node scripts, you\'ll want them to stay running in the background after you log out - so do this:',
     '<code>nohup node YOURSCRIPT.js &</code>',
     'The ampersand at the end there causes it to run in the background. If you want to stop your script, you\'ll need to kill the process. To do that:',
-    '<code>ps -f -uYOURWEBFACTIONUSERNAME | grep YOURSCRIPT.js | grep -v grep | cut -c11-15 | xargs kill 0</code>',
+    '<code>ps -f -uYOURWEBFACTIONUSERNAME | grep YOURSCRIPT.js | grep -v grep | cut -c10-15 | xargs kill 0</code>',
   '</p>',
   '<p>',
     'And that\'s it! Happy node-ing. If you have any questions, queries or comments, <a href="http://twitter.com/shakefon">@shakefon on twitter</a>. Credit for the Dependency installation to <a href="http://forum.webfaction.com/viewtopic.php?id=2355">SeanF in the webfaction forum</a>',
