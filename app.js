@@ -17,7 +17,7 @@ part 2: specific item
 part 3: additional info
 */
 
-var util = require('sys'),
+var util = require('util'),
     http = require('http'),
     url = require('url'),
     path = require('path'),
