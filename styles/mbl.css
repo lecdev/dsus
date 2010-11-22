@@ -1,0 +1,13 @@
+body {background: #000 url(/imgs/bg.jpg); margin: 5px; font-family: arial,Helvetica,sans-serif; font-size: 1em; color: #ddd; text-shadow: 0 1px 2px #111;}
+h1 {display: none;}
+h2 {margin: 10px 0;}
+div#content {width: 100%;}
+div#content p {font-size: 1em; color: #555; line-height: 1.5em;}
+div#content p.first {margin: 5px 0 5px -8px;background: rgba(205,205,205,0.1); padding: 5px 5px 5px 11px; font-size: 1.2em; font-style: italic; font-family: Georgia, serif; color: #fff; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px;}
+div#content p.first.hasPhoto {margin-bottom: 280px;}
+a {padding: 3px; color: #fff; text-decoration: none; background: rgba(0,0,0,0.1); -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px;}
+a:hover {background: rgba(204,204,204,0.1);}
+em {font-style: italic;}
+div#twitter {position: relative; top: 0; left: 0; padding: 10px; color: #fff; font-size: 2.8em; width: 350px; line-height: 1.5em;}
+div#photo {display: none; position: absolute; top: 175px; right: 5px; padding: 5px; background: rgba(204,204,204,0.1); -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; font-size: 1.2em; text-transform: uppercase;}
+div#photo span {font-weight: bold; position: absolute; top: 190px; right: 140px; margin-left: -20px; padding: 5px; color: #fff; text-shadow: 0 1px 2px #333; background: rgba(104,104,104,0.4);}
